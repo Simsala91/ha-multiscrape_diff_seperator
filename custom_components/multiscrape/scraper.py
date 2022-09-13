@@ -87,7 +87,7 @@ class Scraper:
                 values = [tag[selector.attribute] for tag in tags]
             else:
                 values = [tag.text for tag in tags]
-            value = ",".join(values)
+            value = ";:;".join(values)
             _LOGGER.debug("%s # List selector csv: %s", log_prefix, value)
 
         else:
